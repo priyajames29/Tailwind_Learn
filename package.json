@@ -1,0 +1,24 @@
+{
+  "name": "tailwind_learn",
+  "version": "1.0.0",
+  "description": "Project to learn tailwind",
+  "main": "index.js",
+  "scripts": {
+    "tw:build": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --watch",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyajames29/Tailwind_Learn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priyajames29/Tailwind_Learn/issues"
+  },
+  "homepage": "https://github.com/priyajames29/Tailwind_Learn#readme",
+  "dependencies": { 
+    "@tailwindcss/cli": "^4.1.13",
+    "tailwindcss": "^4.1.13"
+  }
+}
