@@ -5,3 +5,5 @@ Project to learn tailwind
 Tailwind CSS IntelliSense
 prettier
 
+# Course of reference
+Tailwind CSS - effortlessly build a tailwind css music festival site and learn to customize and extend tailwind css!
