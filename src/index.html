@@ -125,6 +125,60 @@
             </div>
           </div>
         </nav>
+        <!-- ---- next section ---- -->
+        <div
+          style="background-image: url('./assets/images/hero.jpg')"
+          class="flex flex-col items-center justify-center min-h-[400px] h-[calc(100vh-200px)] bg-cover bg-center bg-fixed"
+        >
+          <div
+            class="bg-white/30 py-2 px-4 rounded-xl text-center backdrop-blur-md"
+          >
+            <div class="relative">
+              <img src="./assets/images/logo.png" alt="logo" width="175" />
+              <div class="flex items-center justify-center mt-[-70px] mb-5">
+                <div
+                  class="h-14 w-14 bg-pink-500 rounded-full flex items-center justify-center gap-1"
+                >
+                  <div
+                    class="h-2 w-1 bg-pink-300 rounded-full animate-wavey"
+                  ></div>
+                  <div
+                    class="w-1 h-3 bg-pink-200 rounded-full animate-wavey animation-delay-200"
+                  ></div>
+                  <div
+                    class="w-1 h-4 bg-pink-100 rounded-full animate-wavey animation-delay-[150ms]"
+                  ></div>
+                  <div
+                    class="w-1 h-3 bg-pink-200 rounded-full animate-wavey animation-delay-300"
+                  ></div>
+                  <div
+                    class="h-2 w-1 bg-pink-300 rounded-full animate-wavey animation-delay-[75ms]"
+                  ></div>
+                </div>
+              </div>
+            </div>
+            <div class="text-5xl font-bold">
+              tw: <span class="text-sky-900 font-quicksand">mf</span>
+            </div>
+          </div>
+          <div class="font-bold mt-3 text-small">
+            Keep Me updated on the latest news
+          </div>
+          <form class="mt-3 flex gap-2">
+            <!-- caret is references the cursor colour -->
+            <input
+              type="email"
+              placeholder="Enter your email"
+              class="rounded-sm border border-white/40 bg-white/30 backdrop-blur-md p-2 font-bold text-sky-900 placeholder-zinc-500 caret-pink-400 outline-pink-500 focus:outline"
+            />
+            <button
+              type="submit"
+              class="cursor-pointer rounded-sm bg-pink-500 px-4 py-2 font-bold text-white hover:bg-sky-900 hover:shadow-lg hover:shadow-black/20 transition-colors"
+            >
+              Subscribe
+            </button>
+          </form>
+        </div>
       </header>
     </main>
   </body>
